@@ -8,14 +8,17 @@ class Landing extends Component {
         <div className="row">
           <div className="col s12 center-align">
             <h4>
-              <b>Build</b> a login/auth app with the{" "}
-              <span style={{ fontFamily: "monospace" }}>MERN</span> stack from
-              scratch
+              MERN Stack Boilerplate{" "}
+        
             </h4>
             <p className="flow-text grey-text text-darken-1">
-              Create a (minimal) full-stack app with a user authentication via
+              This is a starting point to create a full-stack app with a user authentication via
               passport and JWTs
             </p>
+            <p className="flow-text grey-text text-darken-1">
+              Due to it's minimalist nature, this is very customizable to create future projects
+            </p>
+            
             <br />
             <div className="col s6">
               <Link
